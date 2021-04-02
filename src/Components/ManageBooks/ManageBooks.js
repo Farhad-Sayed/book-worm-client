@@ -7,7 +7,7 @@ const ManageBooks = () => {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/books")
+    fetch("https://blooming-chamber-00564.herokuapp.com/books")
       .then((response) => response.json())
       .then((data) => setBooks(data));
   }, []);

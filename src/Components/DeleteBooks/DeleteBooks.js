@@ -6,7 +6,7 @@ const DeleteBooks = ({book}) => {
 //   const { name, price, author, _id } = props.book;
     const [events, setEvents] = useState([]);    
   const deleteItem = (id) =>{
-    fetch(`http://localhost:5000/deleteItem/${id}`, {
+    fetch(`https://blooming-chamber-00564.herokuapp.com/deleteItem/${id}`, {
         method: 'DELETE'
     })
     .then(res => res.json())

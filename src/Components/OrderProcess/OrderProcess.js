@@ -7,7 +7,7 @@ const OrderProcess = () => {
     const [orders, setOrder]  =  useState([]);
 
     useEffect(() =>{
-        fetch('http://localhost:5000/orderprocess?email='+loggedInUser.email)
+        fetch('https://blooming-chamber-00564.herokuapp.com/orderprocess?email='+loggedInUser.email)
         .then(response => response.json())
         .then(data => setOrder(data));
     }, [loggedInUser.email])

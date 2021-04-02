@@ -13,12 +13,6 @@
 }
 
 /* Responsivenes css starts */
-/* @media only screen and (max-width: 960px) {
-    .vehicles{
-        display: block;
-        width: 50%;
-    }
-}  */
 
 @media only screen and (max-width: 1270px) {
     .item{

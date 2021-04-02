@@ -7,7 +7,7 @@ const CheckOut = () => {
     const [book, setBook] = useState([]);
 
     useEffect(() =>{
-        fetch(`http://localhost:5000/book/${id}`)
+        fetch(`https://blooming-chamber-00564.herokuapp.com/book/${id}`)
         .then(response => response.json())
         .then(data => setBook(data));
     }, [id])

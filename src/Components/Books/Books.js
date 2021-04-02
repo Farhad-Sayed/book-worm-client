@@ -8,7 +8,7 @@ const Books = (props) => {
 
   const handleBuyNow = (id) => {
     history.push(`/checkout/${id}`)
-    fetch(`http://localhost:5000/book/${id}`)
+    fetch(`https://blooming-chamber-00564.herokuapp.com/book/${id}`)
     .then(response => response.json())
     .then(data => console.log(data));
   }

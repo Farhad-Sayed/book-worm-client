@@ -17,7 +17,7 @@ const AddBooks = () => {
       quantity: data.quantity,
       imageURL: imageURL,
     };
-    const url = `http://localhost:5000/addBooks`;
+    const url = `https://blooming-chamber-00564.herokuapp.com/addBooks`;
     console.log(eventData);
     fetch(url, {
       method: "POST",
