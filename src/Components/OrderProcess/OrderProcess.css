@@ -1,0 +1,18 @@
+.order-container{
+    width: 100%;
+}
+
+.order{
+    width: 70%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    color: gray;
+}
+
+.order h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

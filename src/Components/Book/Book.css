@@ -1,0 +1,13 @@
+.book-container{
+    width: 100%;
+}
+
+.book-description{
+    width: 80%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.check{
+    float: right;
+}

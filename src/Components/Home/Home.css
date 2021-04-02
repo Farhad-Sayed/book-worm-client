@@ -1,0 +1,35 @@
+.book-container{
+    width: 100%
+}
+
+.books{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Responsivenes css starts */
+/* @media only screen and (max-width: 960px) {
+    .vehicles{
+        display: block;
+        width: 50%;
+    }
+}  */
+
+@media only screen and (max-width: 1270px) {
+    .item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
+
+@media only screen and (max-width: 960px) {
+    .item{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+} 
